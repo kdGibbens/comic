@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+@import url('reset.css');
+
+body {
+	background: #123;
+}
+
+#comicBox{
+	display: block;
+	width: 40%;
+}
+
+#posOne {
+	margin: -55.8em 0 0 0;
+	width: 18em;
+	height: 27.8em;
+	float: left;
+}
+
+#posOne a{
+	color: red;
+}
+
+#posTwo {
+	margin: -55.8em 0 0 18.5em;
+	width: 18.5em;
+	height: 27.8em;
+	float: left;
+}
+
+#posThree {
+	margin: -55.8em 0 0 38.5em;
+	width: 18em;
+	height: 27.8em;
+}
+
+#posFour {
+	margin: .4em .5em 0 0;
+	width: 18em;
+	height: 27em;
+	float: left;
+}
+
+#posFive {
+	margin: .4em .5em 0 0;
+	width: 18.5em;
+	height: 27em;
+	float: left;
+}
+
+#posSix {
+	margin: .4em  0 0 1em;
+	width: 18em;
+	height: 27em;
+	float: left;
+}
+
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+}
+
+#lightbox {
+	position: fixed;
+	overflow: hidden;
+	border: 10px solid #404142;
+}
+
